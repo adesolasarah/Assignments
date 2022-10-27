@@ -1,0 +1,130 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    border: 5px;
+  }
+  
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+  
+  .first-ride {
+    padding: 35px;
+    width: 250px;
+    height: 450px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: hsl(31, 77%, 52%); 
+  }
+  
+  
+  .first-ride h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: hsl(0, 0%, 95%);
+  }
+  
+  .first-ride p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding-bottom: 70px;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  
+  .bTn1 {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    padding: 5px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 100px;
+    height: 30px;
+  }
+  
+  .second-ride {
+    padding: 35px;
+    width: 250px;
+    height: 450px;
+    background-color: hsl(184, 100%, 22%);  
+  }
+  
+  .second-ride h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: hsl(0, 0%, 95%);
+  }
+  
+  .second-ride p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding-bottom: 70px;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  
+  .bTn2 {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    padding: 10px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 100px;
+    height: 30px;
+  }
+  
+  .third-ride {
+    padding: 35px;
+    width: 250px;
+    height: 450px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .third-ride h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: hsl(0, 0%, 95%);
+  }
+  
+  .third-ride p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding-bottom: 70px;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  
+  .bTn3 {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    padding: 10px;
+    border: 2px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 100px;
+    height: 30px;
+  }
+  
+  
+  
+  
